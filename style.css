@@ -14,6 +14,8 @@ height: 50vh;
 position: relative;
 }
 
+
+
 nav {
 display: flex;
 justify-content: space-around;
@@ -106,4 +108,10 @@ color: white;
 background-color: #1db096;
 border-radius: 20px;
 box-shadow: 5px 10px 30px rgba(24, 139, 119, 0.2);
+transition: width 0.5s ease-in;
+}
+
+li a:hover{
+    text-decoration: underline;
+    color: rgb(83, 229, 183);
 }
